@@ -1,0 +1,114 @@
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+    /*===========================HEADER===============================*/
+
+    .logo-text {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+    }
+
+    #menu-top ul li a {
+        padding: 0 21.5px;
+    }
+
+    .navbar-brand img {
+        float: left;
+        margin-right: 8px;
+    }
+
+    /*===========================HEADER END===============================*/
+
+    /*=========================SPECIAL OFFERS==========================*/
+
+
+    .special-offers img {
+        max-height: 100%;
+
+    }
+
+    .so-3 {
+        margin-top: 40px;
+    }
+
+
+
+    /*=========================SPECIAL OFFERS END==========================*/
+
+    /*=========================SLIDERS==========================*/
+
+    .sliders .slider-g .frame .slidee li {
+        width: 213px;
+        margin-right: 18px;
+    }
+
+    .right-scrollbar-circle {
+        right: 38px;
+    }
+
+    .left-scrollbar-circle {
+        left: 38px;
+    }
+
+    .slider-block:last-child .right-crutch, .slider-block:last-child .left-crutch {
+        height: 381px;
+    }
+
+
+
+    /*=========================SLIDERS END==========================*/
+
+    /*=========================ABOUT US==========================*/
+
+    .about {
+        text-align: center;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .about-text {
+        margin-top: 45px;
+    }
+
+    /*=========================ABOUT US END==========================*/
+
+    /*=========================CALLBACK==========================*/
+
+    .callback-main .cb-main-form .prokat-button {
+        width: 320px;
+    }
+
+
+    /*=========================CALLBACK END==========================*/
+
+    /*====================================FOOTER=============================*/
+
+
+    .footer .schedule {
+        right: 0;
+    }
+
+    .footer .phone {
+        background-position: 0% 50%;
+        background-size: 8%;
+        padding-left: 33px;
+        padding-right: 20px;
+    }
+
+    .footer .footer-block {
+        height: 63px;
+    }
+
+    .footer .but-foot {
+
+    }
+
+
+    /*====================================FOOTER END=============================*/
+
+}

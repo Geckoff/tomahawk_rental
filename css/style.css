@@ -1,0 +1,706 @@
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.btn:focus, .btn:active, .btn:focus:active, button:focus, button:active, button:focus:active  {
+    outline: none
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.left-pad-res {
+    padding-left: 0;
+}
+
+.right-pad-res {
+    padding-right: 0;
+}
+
+/*=========================HEADER==========================*/
+
+.top-menu {
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    background: #fff;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.nowrap:first-of-type {
+    margin-right: 4px;
+}
+
+.top-menu .container-fluid {
+    background: #282d33;
+}
+
+.top-menu .top-header .row {
+    height: 128px;
+}
+
+.logo, .logo-text {
+    float: left;
+    line-height: 128px;
+}
+
+.logo img, .logo-text img {
+    vertical-align: middle;
+}
+
+.logo {
+    width: 18%;
+}
+
+.logo-text {
+    margin-left: 8px;
+    width: 77%;
+}
+
+.top-header div {
+    height: 100%;
+}
+
+.top-header .address {
+    height: 80%;
+    margin-top: 12px;
+}
+
+.top-header .address-block {
+    height: 50%;
+    padding-top: 8px;
+}
+
+.address-block {
+    background: #fff no-repeat 0 50%;
+    padding-left: 32px;
+}
+
+.street {
+    background-image: url(../img/compass.jpg);
+}
+
+.schedule {
+    background-image: url(../img/building_clock.jpg);
+}
+
+.address-block p {
+    font-size: 12px;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.phone {
+    background: url(../img/phone.jpg) no-repeat 6% 50%;
+    padding: 41px 0 0 54px;
+}
+
+.phone p {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.phone p span.bold-phone {
+   /* font-weight: bold;  */
+    color: #f04b39;
+}
+
+
+
+.prokat-button {
+    height: 38px;
+    border: none;
+    background: #ff6952;
+    color: #fff;
+    border-radius: 17px;
+    transition: background 0.2s;
+    font-size: 12px;
+    outline: none
+}
+
+.prokat-button:active, .prokat-button:focus, .prokat-button:active:focus {
+    background: #ff6952;
+    color: #fff;
+}
+
+.prokat-button:active, .prokat-button:focus, .prokat-button:active:focus, .prokat-button:hover {
+    background: #FF3414;
+    color: #fff;
+}
+
+.top-header .prokat-button {
+    margin-top: 43px;
+    width: 100%;
+}
+
+
+
+#menu-top ul li a {
+    display: block;
+    height: 10px;
+    line-height: 10px;
+    padding: 0 43px;
+    margin: 18px 0;
+    border-left: 2px dotted #949697;
+    color: #fff;
+    vertical-align: middle;
+}
+
+#menu-top ul li:last-child a {
+    border-right: 2px dotted #949697;
+}
+
+#menu-top ul li:hover {
+    background: #ff6952;
+}
+
+#menu-top ul li:hover a {
+    border-left-color: transparent;
+}
+
+#menu-top ul li:last-child:hover a {
+    border-right-color: transparent;
+}
+
+#menu-top ul li:hover + li {
+    border-left: 2px solid #ff6952;
+}
+
+#menu-top ul li:hover + li a {
+    border-left: none;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+/*=========================HEADER END==========================*/
+
+
+/*=========================POPUP==========================*/
+
+.modal-content {
+    border: none;
+    border-radius: 0;
+    width: 400px;
+    background: #fff url(../img/drill.png) no-repeat -41px -45px;
+}
+
+.modal-dialog {
+    width: 400px;
+}
+
+button.close span {
+    font-size: 12px;
+}
+
+button.close span.close-word {
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    top: -1px;
+}
+
+.modal-header {
+    border: none;
+}
+
+.modal-body {
+    padding-left: 48px;
+    padding-right: 48px;
+    text-align: center;
+}
+
+.modal-body .prokat-button {
+    display: block;
+    margin: 0 auto;
+}
+
+.modal-body h2 {
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 5px solid #ff6952;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.modal-body input, .modal-body button {
+    width: 100%;
+    height: 48px;
+}
+
+.modal-body input, .modal-body textarea {
+    color: #999;
+    font-style: italic;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 0;
+}
+
+.modal-body textarea {
+    width: 100%;
+    height: 130px;
+    resize: none;
+    padding-top: 12px;
+}
+
+.form-control:focus {
+    border-color: #999;
+}
+
+.modal-body input:focus, .modal-body textarea:focus  {
+    outline: none;
+    box-shadow: none;
+}
+
+.has-error .form-control:focus, .has-success .form-control:focus {
+    box-shadow: none;
+}
+
+.has-error p {
+    color: #dd2b1c;
+}
+
+.has-error .form-control {
+    border-color: #dd2b1c
+}
+
+.form-control-feedback {
+    position: relative;
+    float: right;
+    top: -30px;
+}
+
+.modal-body button.prokat-button {
+    border-radius: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.modal-body p {
+    margin-top: 16px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.prokat-button.disabled, .prokat-button.disabled:hover, .prokat-button.disabled:focus, .prokat-button.disabled:active, .prokat-button.disabled:focus:active {
+    background-color: #ffa698;
+}
+
+/*=========================POPUP END==========================*/
+
+/*=========================SPECIAL OFFERS==========================*/
+
+.h2-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.title-highlight {
+    color: #ff6952;
+}
+
+.content-block {
+    margin-top: 48px;
+}
+
+.special-offers {
+    padding-bottom: 48px;
+    border-bottom: 1px solid #ff6952;
+}
+
+.special-offers img {
+    max-height: 362px;
+
+}
+
+.special-offers .prokat-button {
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-left: 53px;
+    padding-right: 53px;
+}
+
+
+/*=========================SPECIAL OFFERS END==========================*/
+
+/*=========================SLIDERS==========================*/
+
+.section-desc {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.sliders .slider-g ul li {
+    color: #000;
+}
+
+.slider-row {
+    margin-top: 48px;
+}
+
+.frame ul {
+    font-size: 16px;
+}
+
+.sliders .slider-g .frame .slidee li {
+    width: 250px;
+    margin-right: 18px;
+    padding-top: 15px;
+    height: 334px;
+    background: #e6e6e6;
+    border-radius: 4px;
+    cursor: default;
+    transition: background 0.2s;
+}
+
+.slidee li .add-desc {
+    background: #e6e6e6;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.slidee li .tog-but {
+    background: #e6e6e6;
+    height: auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.slidee li .add-desc:hover + .tog-but, .slidee li .tog-but:hover {
+    color: #fff;
+}
+
+.slidee li p {
+    font-size: 18px;
+}
+
+.slidee .add-desc p {
+    font-size: 14px;
+    padding: 15px;
+}
+
+.sliders .slider-g .frame .slidee li.active, .sliders .slider-g .frame .slidee li:hover {
+    background: #ff6952;
+}
+
+.slidee li.active .add-desc, .slidee li:hover .add-desc,  .slidee li.active .tog-but, .slidee li:hover .tog-but {
+    background: #ff6952;
+}
+
+.sliders .slider-g .frame .slidee li:first-of-type {
+    margin-left: 0;
+}
+
+.sliders .slider-g .frame .slidee li:last-of-type {
+    margin-right: 0;
+}
+
+.sliders .slidee li img {
+    margin-top: 0;
+    width: 87%;
+    margin-bottom: 10px;
+}
+
+.sliders .frame {
+    height: 350px;
+}
+
+.sliders .frame .tog-but i {
+    font-size: 15px;
+}
+
+.tool-name {
+    height: 50px;
+    display: table;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 4px;
+}
+
+.tool-name p {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.sliders .scrollbar .handle {
+    height: 11px;
+    top: -5px;
+    position: relative;
+    border-radius: 5px;
+    background: #ff6952 url(../img/slider-handle-center.jpg) no-repeat 50% 50%;
+}
+
+.sliders .scrollbar {
+    height: 1px;
+    background: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.scrollbar-circle {
+    height: 5px;
+    width: 5px;
+    background: #000;
+    position: relative;
+    top:-2px;
+    border-radius: 5px;
+}
+
+.left-scrollbar-circle {
+    float: left;
+    left: 58px;
+
+}
+
+.right-scrollbar-circle {
+    float: right;
+    right: 58px;
+    top:-3px;
+}
+
+.sliders .slider-g {
+    margin-bottom: 12px;
+}
+
+.sliders .right-crutch, .sliders .left-crutch {
+    height: 400px;
+}
+
+.sliders .prev, .sliders .next {
+    top: 38%;
+    font-size: 34px;
+}
+
+.sliders .btn:active {
+    box-shadow: none;
+}
+
+/*=========================SLIDERS END==========================*/
+
+/*=========================ADVANTAGES==========================*/
+
+.advantages {
+    margin-top: 48px;
+    background: url(../img/picture-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.advantages .h2-title {
+    color: #fff;
+}
+
+.advantages .title-highlight {
+    color: #282d33;
+}
+
+.adv-block img {
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.adv-block p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.adv-block {
+    margin-bottom: 30px;
+}
+
+
+/*=========================ADVANTAGES END==========================*/
+
+
+/*=========================ABOUT US==========================*/
+
+.about {
+    margin-bottom: 48px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.about-text {
+    background: url(../img/quots.jpg) no-repeat;
+}
+
+/*=========================ABOUT US END==========================*/
+
+/*=========================CALLBACK==========================*/
+
+.callback-main {
+    background: #ff6952;
+}
+
+.callback-main input, .callback-main input {
+    display: inline-block;
+}
+
+.callback-main .h2-title {
+    color: #fff;
+}
+
+.white-bg {
+    height: 3px;
+    background: #fff;
+    margin-top: 12px;
+}
+
+.callback-main p {
+    color: #fff;
+    font-size: 24px;
+    margin-top: 12px;
+}
+
+.callback-main .prokat-button {
+    width: 383px;
+    background: #282d33;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 45px;
+
+}
+
+.callback-main button {
+    position: relative;
+    top: -3px;
+}
+
+.callback-main .prokat-button:active, .callback-main .prokat-button:focus, .callback-main .prokat-button:active:focus, .callback-main .prokat-button:hover {
+    background: #1B1E22;
+}
+
+.cb-main-form {
+    margin-bottom: 45px;
+    margin-top: 30px;
+}
+
+.cb-main-form input[type=text] {
+    background: #fff;
+    color: #383838;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+}
+
+.callback-main input[type=text].prokat-button:active, .callback-main input[type=text].prokat-button:focus, .callback-main input[type=text].prokat-button:active:focus, .callback-main input[type=text].prokat-button:hover {
+    background: #fff;
+}
+
+.cb-main-form i {
+    margin: 0 12px;
+    font-size: 26px;
+    color: #fff;
+    position: relative;
+    top: 2px;
+}
+
+/*=========================CALLBACK END==========================*/
+
+/*=========================MAP==========================*/
+
+#map  {
+    z-index: 4;
+    width: 100%;height: 380px; padding: 0; margin: 0;
+    /*filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");*/
+    /* Firefox 3.5+ */
+    /*-webkit-filter: grayscale(100%); */
+    /* Chrome 19+ & Safari 6+ */
+}
+
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    -webkit-filter: grayscale(100%);
+    /* Chrome 19+ & Safari 6+ */
+}
+
+.map .h2-title {
+    /*height: 0;    */
+    margin: 0;
+    margin-top: 30px;
+    text-transform: none;
+    display: inline-block;
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px 4px #FFFFFF;
+    box-shadow: 0 0 45px 16px #FFFFFF;
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+
+.map .map-title {
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+}
+
+/*=========================MAP END==========================*/
+
+/*====================================FOOTER=============================*/
+
+.footer .phone {
+    padding-top: 0;
+}
+
+.footer .phone p {
+    margin: 0;
+}
+
+.footer .container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .footer-block {
+    display: table;
+    height: 80px;
+}
+
+.footer .address-block p {
+    font-size: 14px;
+}
+
+.footer .schedule {
+    position: relative;
+    right: -52px;
+}
+
+.footer-block div, .footer-block .but-foot {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+/*====================================FOOTER END=============================*/
+
+
+
+
+
+

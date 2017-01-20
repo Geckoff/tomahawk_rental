@@ -1,0 +1,195 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    overflow: hidden;
+}
+
+.slidee>div {
+  padding: 20px;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  background: white;
+}
+
+.scrollbar {
+    margin-top: 20px;
+}
+
+.frame, .scrollbar {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.frame {
+    line-height: normal;
+    z-index: 3;
+}
+
+.frame .btn {
+    padding: 0;
+    background: red;
+    width: 30px;
+    height: 30px;
+}
+
+.next, .prev {
+
+}
+
+.right-crutch, .left-crutch {
+    position: absolute;
+    height: 350px;
+    background: #fff;
+    width: 1000px;
+    z-index: 5;
+}
+
+.left-crutch {
+    left: -942px;
+
+}
+
+.right-crutch {
+    right: -942px;
+    top: 0;
+}
+
+.prev {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+
+.next {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+}
+
+.slider-g {
+    position: relative;
+    margin-bottom: 20px;
+    /*overflow-x: hidden; */
+
+}
+
+.slider-g .frame .slidee li {
+    position: relative;
+    width: 210px;
+    overflow: visible;
+}
+
+.slider-g .frame .slidee li:hover {
+    background: #a03232;
+}
+
+.slider-g .frame .slidee li.active {
+    /*height: 400px; */
+}
+
+.slidee {
+    overflow: visible;
+}
+
+.slidee li img {
+    margin-top: 70px;
+}
+
+.slidee li span, .slidee li p {
+    font-size: 12px;
+}
+
+.slidee li .tog-but {
+    background: blue;
+    height: 30px;
+    bottom: 0;
+    position: relative;
+    width: 100%;
+}
+
+.slidee li .add-desc {
+    display: none;
+    background: #333;
+}
+
+.slidee li.active .add-desc, .slidee li:hover .add-desc {
+    background: #a03232;
+}
+
+.add-desc p{
+    margin: 0;
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .slider-g .frame .slidee li {
+        width: 218px;
+    }
+
+    .left-crutch {
+        left: -952px;
+    }
+
+    .right-crutch {
+        right: -952px;
+    }
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .slider-g .frame .slidee li {
+        width: 224px;
+    }
+
+    .left-crutch {
+        left: -962px;
+    }
+
+    .right-crutch {
+        right: -962px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .slider-g .frame .slidee li {
+        /*width: calc(33%); */
+        width: 26.66vw;
+    }
+
+    .frame, .scrollbar {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+    .left-crutch {
+        /*left: calc(-924px - 12.42%);*/
+        width: 10%;
+        left: 0;
+        /*left: calc(-848px - 9.3%);  */
+    }
+
+    .right-crutch {
+        width: 10%;
+        right: 0;
+        /*right: calc(-924px - 12.42%); */
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .slider-g .frame .slidee li {
+        /*width: calc(33%); */
+        width: 40vw;
+    }
+}

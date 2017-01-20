@@ -1,0 +1,268 @@
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+    /*===========================HEADER===============================*/
+    .top-header .schedule {
+        display: none;
+    }
+
+    .navbar-brand img:last-child {
+        height: 25px;
+        margin-top: 12px;
+    }
+
+    .callback {
+        position: relative;
+        width: 75%;
+        margin-top: 0;
+        right: 15px;
+    }
+
+    /*===========================HEADER END===============================*/
+
+    /*===========================POPUP===============================*/
+
+    .modal-content, .modal-dialog {
+        width: 280px;
+    }
+
+    .modal-body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    /*===========================POPUP END===============================*/
+
+    /*=========================SLIDERS==========================*/
+
+    .sliders .slider-g .frame .slidee li {
+        width: 80vw;
+        margin-right: 0vw;
+        height: 100vw;
+    }
+
+    .slidee li p {
+        font-size: 21px;
+    }
+
+    .sliders .frame {
+        height: 55vw;
+    }
+
+    .sliders .scrollbar {
+        display: none;
+    }
+
+    .sliders .slider-g .frame .slidee li {
+        padding-top: 5vw;
+    }
+
+    .sliders .right-crutch, .sliders .left-crutch {
+        height: 150vw;
+    }
+
+    .slidee .add-desc p {
+        font-size: 19px;
+    }
+
+    .slider-block:last-child .right-crutch, .slider-block:last-child .left-crutch {
+        height: 110vw;
+    }
+
+
+    /*=========================SLIDERS END==========================*/
+
+    /*=========================CALLBACK==========================*/
+
+    .callback-main .prokat-button {
+        width: 90%;
+    }
+
+    .footer .phone p {
+        font-size: 12px;
+    }
+
+    /*=========================CALLBACK END==========================*/
+
+}
+
+@media only screen and (max-width : 445px) {
+    /*=========================CALLBACK==========================*/
+
+    .footer .footer-block {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding-top: 5px;      
+    }
+
+    .footer .footer-block:last-child {
+        margin-bottom: 0;
+    }
+
+    .footer .address-block.schedule p {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+
+    .footer .address-block p, .footer .phone p {
+        font-size: 14px;
+    }
+
+    .footer .phone {
+        background-size: 6%;
+        padding-bottom: 2px;
+    }
+
+    .but-foot {
+        text-align: center;
+    }
+
+    .but-foot .prokat-button {
+        width: 80%;
+    }
+
+    /*=========================CALLBACK END==========================*/
+}
+
+@media only screen and (max-width : 440px) {
+
+    /*===========================SPECIAL OFFERS===============================*/
+
+
+    .special-offers {
+        margin-top: 149px;
+    }
+
+    /*===========================SPECIAL OFFERS END===============================*/
+
+    /*=========================SLIDERS==========================*/
+
+    .slider-block:last-child .right-crutch, .slider-block:last-child .left-crutch {
+        height: 111vw;
+    }
+
+    /*=========================SLIDERS END==========================*/
+
+
+
+
+
+
+}
+
+@media only screen and (max-width : 400px) {
+
+    /*===========================SLIDERS OFFERS===============================*/
+
+    .slider-block:last-child .right-crutch, .slider-block:last-child .left-crutch {
+        height: 112vw;
+    }
+
+    /*===========================SLIDERS OFFERS END===============================*/
+
+}
+
+@media only screen and (max-width : 360px) {
+
+    /*===========================SPECIAL OFFERS===============================*/
+
+    .so-1, .so-2 {
+        width: 100%;
+    }
+
+    .so-2 {
+        margin-top: 35px;
+    }
+
+
+    .special-offers .prokat-button {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+        /*===========================SPECIAL OFFERS END===============================*/
+
+     /*=========================CALLBACK==========================*/
+
+    .callback-main button.prokat-button {
+        font-size: 12px;
+
+    }
+
+    /*=========================CALLBACK END==========================*/
+
+
+
+    /*===========================SLIDERS OFFERS===============================*/
+
+    .slider-block:last-child .right-crutch, .slider-block:last-child .left-crutch {
+        height: 121vw;
+    }
+
+    /*===========================SLIDERS OFFERS END===============================*/
+
+     /*===========================HEADER===============================*/
+
+    .navbar-brand img:last-child {
+        height: 19px;
+        margin-top: 15px;
+    }
+
+    /*===========================HEADER END===============================*/
+
+    .sliders .slider-g .frame .slidee li {
+        height: 108vw;
+    }
+
+    .prev {
+        right: -5px;
+    }
+
+    .next {
+        left: -5px;
+    }
+
+}
+
+@media only screen and (max-width : 360px) {
+
+    /*===========================SLIDERS OFFERS===============================*/
+
+    .slider-block:last-child .right-crutch, .slider-block:last-child .left-crutch {
+        height: 122.5vw;
+    }
+
+    /*===========================SLIDERS OFFERS END===============================*/
+
+    /*===========================ADVANTAGES===============================*/
+
+    .adv-block {
+        width: 100%;
+    }
+
+    .adv-block p {
+        height: auto;
+    }
+
+    /*===========================ADVANTAGES END===============================*/
+
+}
+
+@media only screen and (max-width : 305px) {
+
+    /*===========================HEADER===============================*/
+
+
+    .navbar-brand img:last-child {
+        display: none;
+    }
+
+    .special-offers {
+        margin-top: 0;
+    }
+
+    /*===========================HEADER END===============================*/
+
+}

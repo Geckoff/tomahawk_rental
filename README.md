@@ -1,3 +1,3 @@
-Tomahawk Tool Rental website Wordpress template (php+html+css+js)
+Tomahawk Tool Rental website Wordpress theme (php+html+css+js)
 
 http://tomahawktoolrentals.com/
